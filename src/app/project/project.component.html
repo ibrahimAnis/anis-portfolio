@@ -164,7 +164,7 @@
    
 <app-modal id="custom-modal-1">
   <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal"><i class="fa fa-close" (click)="closeModal('custom-modal-1')" style="font-size:48px; margin-left: 25em;"></i></div>
+    <div class="close-modal" data-dismiss="modal"><!--i class="fa fa-close" (click)="closeModal('custom-modal-1')" class="top-right" style="font-size:48px;"></i--></div>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
@@ -192,7 +192,7 @@
 
 <app-modal id="custom-modal-2">
   <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal"><i class="fa fa-close" (click)="closeModal('custom-modal-2')" style="font-size:48px; margin-left: 25em;"></i></div>
+    <div class="close-modal" data-dismiss="modal"><!--i class="fa fa-close" (click)="closeModal('custom-modal-2')" class="top-right" style="font-size:48px;"></i--></div>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
@@ -203,7 +203,7 @@
                     <!--video class="img-fluid d-block mx-auto" src="assets/video/gsf.mp4" type="video/mp4" controls>
                     <source src="assets/video/gsf-video.mp4" type="video/mp4">
                     </video-->
-                    <div>
+                    <div class="iframe-container">
                     <iframe width="700" height="315" src="https://www.youtube.com/embed/rSqptoxfRoc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <br/>
@@ -219,7 +219,7 @@
 
 <app-modal id="custom-modal-3">
   <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal"><i class="fa fa-close" (click)="closeModal('custom-modal-3')" style="font-size:48px; margin-left: 25em;"></i></div>
+    <div class="close-modal" data-dismiss="modal"><!--i class="fa fa-close" (click)="closeModal('custom-modal-3')"  style="font-size:48px;"></i--></div>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
@@ -230,7 +230,9 @@
                     <!--video class="img-fluid d-block mx-auto" src="assets/video/aidm.webm" type="video/webm" controls>
                     <source src="assets/video/aidm.webm" type="video/webm">
                     </video-->
+                    <div class="iframe-container">
                     <iframe width="660" height="315" src="https://www.youtube.com/embed/jVoxCGGSsMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                     <br/>
                     <p>Machine Learning is trending and to understand this concept there is no better way than to implement it from scratch.So I decided to learn and try to implement a neural network in C++ without using any framework.This Neural Network is trained to find the XOR value.You can see how the model is learning and reducing its error in video</p>
                     <a class="btn btn-primary" data-dismiss="modal" type="button" style="position:relative; margin-left:20rem" href="https://github.com/ibrahimAnis/Neural_Network"><i class="fa fa-github mr-1"></i>View Code</a>
